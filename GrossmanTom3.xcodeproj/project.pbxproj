@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0EEC8311D40381700D09194 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EEC8301D40381700D09194 /* main.m */; };
+		C0EEC8341D40381700D09194 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EEC8331D40381700D09194 /* AppDelegate.m */; };
+		C0EEC8371D40381700D09194 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EEC8361D40381700D09194 /* ViewController.m */; };
+		C0EEC83A1D40381700D09194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0EEC8381D40381700D09194 /* Main.storyboard */; };
+		C0EEC83C1D40381700D09194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0EEC83B1D40381700D09194 /* Assets.xcassets */; };
+		C0EEC83F1D40381700D09194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0EEC83D1D40381700D09194 /* LaunchScreen.storyboard */; };
+		C0EEC84A1D40381700D09194 /* GrossmanTom3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EEC8491D40381700D09194 /* GrossmanTom3Tests.m */; };
+		C0EEC8551D40381700D09194 /* GrossmanTom3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EEC8541D40381700D09194 /* GrossmanTom3UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0EEC8461D40381700D09194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0EEC8241D40381700D09194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0EEC82B1D40381700D09194;
+			remoteInfo = GrossmanTom3;
+		};
+		C0EEC8511D40381700D09194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0EEC8241D40381700D09194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0EEC82B1D40381700D09194;
+			remoteInfo = GrossmanTom3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0EEC82C1D40381700D09194 /* GrossmanTom3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrossmanTom3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0EEC8301D40381700D09194 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0EEC8321D40381700D09194 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0EEC8331D40381700D09194 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0EEC8351D40381700D09194 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0EEC8361D40381700D09194 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0EEC8391D40381700D09194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0EEC83B1D40381700D09194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0EEC83E1D40381700D09194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0EEC8401D40381700D09194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0EEC8451D40381700D09194 /* GrossmanTom3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrossmanTom3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0EEC8491D40381700D09194 /* GrossmanTom3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrossmanTom3Tests.m; sourceTree = "<group>"; };
+		C0EEC84B1D40381700D09194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0EEC8501D40381700D09194 /* GrossmanTom3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrossmanTom3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0EEC8541D40381700D09194 /* GrossmanTom3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrossmanTom3UITests.m; sourceTree = "<group>"; };
+		C0EEC8561D40381700D09194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0EEC8291D40381700D09194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EEC8421D40381700D09194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EEC84D1D40381700D09194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0EEC8231D40381700D09194 = {
+			isa = PBXGroup;
+			children = (
+				C0EEC82E1D40381700D09194 /* GrossmanTom3 */,
+				C0EEC8481D40381700D09194 /* GrossmanTom3Tests */,
+				C0EEC8531D40381700D09194 /* GrossmanTom3UITests */,
+				C0EEC82D1D40381700D09194 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0EEC82D1D40381700D09194 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0EEC82C1D40381700D09194 /* GrossmanTom3.app */,
+				C0EEC8451D40381700D09194 /* GrossmanTom3Tests.xctest */,
+				C0EEC8501D40381700D09194 /* GrossmanTom3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0EEC82E1D40381700D09194 /* GrossmanTom3 */ = {
+			isa = PBXGroup;
+			children = (
+				C0EEC8321D40381700D09194 /* AppDelegate.h */,
+				C0EEC8331D40381700D09194 /* AppDelegate.m */,
+				C0EEC8351D40381700D09194 /* ViewController.h */,
+				C0EEC8361D40381700D09194 /* ViewController.m */,
+				C0EEC8381D40381700D09194 /* Main.storyboard */,
+				C0EEC83B1D40381700D09194 /* Assets.xcassets */,
+				C0EEC83D1D40381700D09194 /* LaunchScreen.storyboard */,
+				C0EEC8401D40381700D09194 /* Info.plist */,
+				C0EEC82F1D40381700D09194 /* Supporting Files */,
+			);
+			path = GrossmanTom3;
+			sourceTree = "<group>";
+		};
+		C0EEC82F1D40381700D09194 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0EEC8301D40381700D09194 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0EEC8481D40381700D09194 /* GrossmanTom3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C0EEC8491D40381700D09194 /* GrossmanTom3Tests.m */,
+				C0EEC84B1D40381700D09194 /* Info.plist */,
+			);
+			path = GrossmanTom3Tests;
+			sourceTree = "<group>";
+		};
+		C0EEC8531D40381700D09194 /* GrossmanTom3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0EEC8541D40381700D09194 /* GrossmanTom3UITests.m */,
+				C0EEC8561D40381700D09194 /* Info.plist */,
+			);
+			path = GrossmanTom3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0EEC82B1D40381700D09194 /* GrossmanTom3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0EEC8591D40381700D09194 /* Build configuration list for PBXNativeTarget "GrossmanTom3" */;
+			buildPhases = (
+				C0EEC8281D40381700D09194 /* Sources */,
+				C0EEC8291D40381700D09194 /* Frameworks */,
+				C0EEC82A1D40381700D09194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrossmanTom3;
+			productName = GrossmanTom3;
+			productReference = C0EEC82C1D40381700D09194 /* GrossmanTom3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0EEC8441D40381700D09194 /* GrossmanTom3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0EEC85C1D40381700D09194 /* Build configuration list for PBXNativeTarget "GrossmanTom3Tests" */;
+			buildPhases = (
+				C0EEC8411D40381700D09194 /* Sources */,
+				C0EEC8421D40381700D09194 /* Frameworks */,
+				C0EEC8431D40381700D09194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0EEC8471D40381700D09194 /* PBXTargetDependency */,
+			);
+			name = GrossmanTom3Tests;
+			productName = GrossmanTom3Tests;
+			productReference = C0EEC8451D40381700D09194 /* GrossmanTom3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0EEC84F1D40381700D09194 /* GrossmanTom3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0EEC85F1D40381700D09194 /* Build configuration list for PBXNativeTarget "GrossmanTom3UITests" */;
+			buildPhases = (
+				C0EEC84C1D40381700D09194 /* Sources */,
+				C0EEC84D1D40381700D09194 /* Frameworks */,
+				C0EEC84E1D40381700D09194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0EEC8521D40381700D09194 /* PBXTargetDependency */,
+			);
+			name = GrossmanTom3UITests;
+			productName = GrossmanTom3UITests;
+			productReference = C0EEC8501D40381700D09194 /* GrossmanTom3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0EEC8241D40381700D09194 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Tom Grossman";
+				TargetAttributes = {
+					C0EEC82B1D40381700D09194 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					C0EEC8441D40381700D09194 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C0EEC82B1D40381700D09194;
+					};
+					C0EEC84F1D40381700D09194 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C0EEC82B1D40381700D09194;
+					};
+				};
+			};
+			buildConfigurationList = C0EEC8271D40381700D09194 /* Build configuration list for PBXProject "GrossmanTom3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0EEC8231D40381700D09194;
+			productRefGroup = C0EEC82D1D40381700D09194 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0EEC82B1D40381700D09194 /* GrossmanTom3 */,
+				C0EEC8441D40381700D09194 /* GrossmanTom3Tests */,
+				C0EEC84F1D40381700D09194 /* GrossmanTom3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0EEC82A1D40381700D09194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EEC83F1D40381700D09194 /* LaunchScreen.storyboard in Resources */,
+				C0EEC83C1D40381700D09194 /* Assets.xcassets in Resources */,
+				C0EEC83A1D40381700D09194 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EEC8431D40381700D09194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EEC84E1D40381700D09194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0EEC8281D40381700D09194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EEC8371D40381700D09194 /* ViewController.m in Sources */,
+				C0EEC8341D40381700D09194 /* AppDelegate.m in Sources */,
+				C0EEC8311D40381700D09194 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EEC8411D40381700D09194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EEC84A1D40381700D09194 /* GrossmanTom3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EEC84C1D40381700D09194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EEC8551D40381700D09194 /* GrossmanTom3UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0EEC8471D40381700D09194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0EEC82B1D40381700D09194 /* GrossmanTom3 */;
+			targetProxy = C0EEC8461D40381700D09194 /* PBXContainerItemProxy */;
+		};
+		C0EEC8521D40381700D09194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0EEC82B1D40381700D09194 /* GrossmanTom3 */;
+			targetProxy = C0EEC8511D40381700D09194 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0EEC8381D40381700D09194 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0EEC8391D40381700D09194 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0EEC83D1D40381700D09194 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0EEC83E1D40381700D09194 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0EEC8571D40381700D09194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0EEC8581D40381700D09194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0EEC85A1D40381700D09194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrossmanTom3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umsl.GrossmanTom3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0EEC85B1D40381700D09194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrossmanTom3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umsl.GrossmanTom3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0EEC85D1D40381700D09194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrossmanTom3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umsl.GrossmanTom3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrossmanTom3.app/GrossmanTom3";
+			};
+			name = Debug;
+		};
+		C0EEC85E1D40381700D09194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrossmanTom3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umsl.GrossmanTom3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrossmanTom3.app/GrossmanTom3";
+			};
+			name = Release;
+		};
+		C0EEC8601D40381700D09194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GrossmanTom3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umsl.GrossmanTom3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GrossmanTom3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C0EEC8611D40381700D09194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GrossmanTom3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umsl.GrossmanTom3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GrossmanTom3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0EEC8271D40381700D09194 /* Build configuration list for PBXProject "GrossmanTom3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EEC8571D40381700D09194 /* Debug */,
+				C0EEC8581D40381700D09194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0EEC8591D40381700D09194 /* Build configuration list for PBXNativeTarget "GrossmanTom3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EEC85A1D40381700D09194 /* Debug */,
+				C0EEC85B1D40381700D09194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0EEC85C1D40381700D09194 /* Build configuration list for PBXNativeTarget "GrossmanTom3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EEC85D1D40381700D09194 /* Debug */,
+				C0EEC85E1D40381700D09194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0EEC85F1D40381700D09194 /* Build configuration list for PBXNativeTarget "GrossmanTom3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EEC8601D40381700D09194 /* Debug */,
+				C0EEC8611D40381700D09194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0EEC8241D40381700D09194 /* Project object */;
+}
